@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GroupProject (Debug)",
+            "request": "launch",
+            "preLaunchTask": "GroupProject Win64 Debug Build",
+            "program": "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "GroupProject (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "GroupProject Win64 DebugGame Build",
+            "program": "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "GroupProject (Development)",
+            "request": "launch",
+            "preLaunchTask": "GroupProject Win64 Development Build",
+            "program": "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "GroupProject (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "GroupProject Win64 Shipping Build",
+            "program": "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "GroupProject (Test)",
+            "request": "launch",
+            "preLaunchTask": "GroupProject Win64 Test Build",
+            "program": "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "GroupProjectEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "GroupProjectEditor Win64 Debug Build",
+            "program": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject"
+            ],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "GroupProjectEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "GroupProjectEditor Win64 DebugGame Build",
+            "program": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject"
+            ],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "GroupProjectEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "GroupProjectEditor Win64 Development Build",
+            "program": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject"
+            ],
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+        }
+    ]
+}

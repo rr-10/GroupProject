@@ -1,0 +1,27 @@
+[
+	{
+		"file": "C:\\\\Users\\\\remor\\\\OneDrive - Teesside University\\\\GroupProject\\\\Source\\\\GroupProject\\\\GroupProject.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\.vscode\\compileCommands_Default\\GroupProject.182.rsp\"",
+		"directory": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\remor\\\\OneDrive - Teesside University\\\\GroupProject\\\\Source\\\\GroupProject\\\\GroupProject.cpp",
+		"command": "cl.exe @\"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\.vscode\\compileCommands_Default\\GroupProject.182.rsp\"",
+		"directory": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\remor\\\\OneDrive - Teesside University\\\\GroupProject\\\\Source\\\\GroupProject\\\\GroupProject.h",
+		"command": "cl.exe @\"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\.vscode\\compileCommands_Default\\GroupProject.182.rsp\"",
+		"directory": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\remor\\\\OneDrive - Teesside University\\\\GroupProject\\\\Source\\\\GroupProject\\\\MyClass.cpp",
+		"command": "cl.exe @\"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\.vscode\\compileCommands_Default\\GroupProject.182.rsp\"",
+		"directory": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\remor\\\\OneDrive - Teesside University\\\\GroupProject\\\\Source\\\\GroupProject\\\\MyClass.h",
+		"command": "cl.exe @\"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\.vscode\\compileCommands_Default\\GroupProject.182.rsp\"",
+		"directory": "D:\\My Games\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]

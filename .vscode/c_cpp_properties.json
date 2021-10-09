@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "GroupProjectEditor Editor Win64 Development (GroupProject)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\.vscode\\compileCommands_GroupProject.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

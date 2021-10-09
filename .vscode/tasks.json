@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "GroupProject Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win32",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProject IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProject IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProject",
+				"IOS",
+				"Test",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProjectEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProjectEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GroupProjectEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		},
+		{
+			"label": "GroupProjectEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GroupProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\remor\\OneDrive - Teesside University\\GroupProject\\GroupProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\My Games\\Epic Games\\UE_4.26"
+			}
+		}
+	]
+}
