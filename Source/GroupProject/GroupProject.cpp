@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-#include "GroupProject.h"
-#include "Modules/ModuleManager.h"
-
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, GroupProject, "GroupProject" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ed829f55d5df5306bde482905a8a222e2b2c6a45263d7cf1c8ab0f2e543c6fe
+size 235
